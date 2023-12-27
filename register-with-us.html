@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;500;600;700&family=Lexend:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <img src="images/RethinkHR 1.png" alt="RethinkHR" class="rethink" />
+        <div>
+            <!-- <a href="https://rethinkhr.sapphireconnect.in/"><span>Register with us</span></a> -->
+            <a href="https://rethinkhr.sapphireconnect.in/"><span>Features</span></a>
+            <a href="https://rethinkhr.sapphireconnect.in/"><span>Benefits</span></a>
+            <a href="https://rethinkhr.sapphireconnect.in/about-us/"><span>About Us</span></a>
+        </div>
+    </div>
+
+    <div class="container">
+        <img src="./images/bg-desktop-img.jpg" alt="bg-img" class="bg-img">
+        
+        <div class="tsel">
+            <p class="title-main">Decode, Discover & Determine The <br/> Quantum Shift of HR</p>
+    
+            <p class="subtitle">India’s Fastest <br/> growing HR<br/> Platform.</p>
+    
+            <p class="event-details">4th Annual RethinkHR Conclave 2023-24</p>
+    
+            <p class="location">DELHI - BANGALORE - MUMBAI</p>
+        </div>
+
+        <div class="form-box">
+            <p class="heading-featured">Join Us as a Supporting Partner at India's HR Frontier!</p>
+            <p class="text-wrapper">Kindly verify your details prior to setting up your profile, should you need to update or modify them.</p>
+            
+            <form action="#" method="post" id="contactForm" onsubmit="return validateFormAndRedirect()">
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" required placeholder="John Doe">
+        
+                <label for="companyName">Company Name:</label>
+                <input type="text" id="companyName" name="companyName" required placeholder="ABC Corp">
+        
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required placeholder="example@example.com">
+        
+                <label for="mobileNumber">Mobile Number:</label>
+                <input type="tel" id="mobileNumber" name="mobileNumber" pattern="[0-9]{10}" required placeholder="1234567890">
+        
+                <button type="submit" class="hover-effect">Continue</button>
+          
+            </form>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
